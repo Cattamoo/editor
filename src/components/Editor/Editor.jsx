@@ -1,8 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styles from "./Editor.module.css";
 
-export default function Editor() {
-	const [text, setText] = useState('');
+export default function Editor({ text, setText }) {
 	const handleTab = (e) => {
 		if(e.code === 'Tab') {
 			const target = e.target;
