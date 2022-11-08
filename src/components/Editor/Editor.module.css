@@ -1,0 +1,23 @@
+.container {
+	display: flex;
+	min-height: 100vh;
+}
+
+.numbers {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.number {
+	line-height: 1.2rem;
+	padding: 0 .5rem;
+}
+
+.text {
+	flex: 1;
+	line-height: 1.2rem;
+	resize: none;
+	border: 0;
+	outline: 0;
+	overflow-y: hidden;
+}
