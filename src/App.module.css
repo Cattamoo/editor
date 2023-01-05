@@ -1,5 +1,9 @@
+@value headerHeight, headerPadding from './common/size.css';
+
 .app {
 	background-color: #f0f0f0;
 	color: #111;
 	display: flex;
+	flex: 1;
+	margin-top: calc(headerHeight + (headerPadding * 2));
 }

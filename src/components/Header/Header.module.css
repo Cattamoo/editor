@@ -1,0 +1,31 @@
+@value headerPadding from '../../common/size.css';
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: headerPadding;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	user-select: none;
+}
+
+.logo {
+	font-weight: bold;
+}
+
+.btn {
+	cursor: pointer;
+	outline: 0;
+	background-color: #00000022;
+	border: 1px solid #00000088;
+	border-radius: 1rem;
+	padding: .25rem .5rem;
+	margin-left: .5rem;
+	transition-duration: .25s;
+}
+
+.btn:hover {
+	background-color: #00000055;
+}

@@ -1,7 +1,7 @@
 .container {
 	flex: 1;
 	display: flex;
-	min-height: 100vh;
+	min-height: 100%;
 }
 
 .numbers {
@@ -21,4 +21,7 @@
 	border: 0;
 	outline: 0;
 	overflow-y: hidden;
+	overflow-x: auto;
+	text-overflow: clip;
+	white-space: nowrap;
 }

@@ -4,13 +4,14 @@ import styles from "./Editor.module.css";
 export default function Editor({ text, setText }) {
 	const handleTab = (e) => {
 		if(e.code === 'Tab') {
+			e.preventDefault();
 			const target = e.target;
 			let v = target.value;
 			let start = target.selectionStart;
 			let end = target.selectionEnd;
 			target.value = v.substring(0, start) + '\t' + v.substring(end);
 			target.selectionStart = target.selectionEnd = start + 1;
-			return false;
+			e.target.focus()
 		}
 	}
 	const handleTextChange = (e) => {
