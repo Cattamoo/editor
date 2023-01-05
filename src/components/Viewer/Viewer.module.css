@@ -1,3 +1,24 @@
 .viewer {
 	flex: 1;
+	padding: 0 .5rem;
+}
+
+.viewer :not(pre) code {
+	font-weight: 600;
+	background-color: #e0e0e0;
+	border-radius: 1rem;
+	font-size: .8rem;
+	padding: .2rem .5rem;
+}
+
+.viewer pre:has(code) {
+	background-color: #e0e0e0;
+	padding: .5rem;
+	-moz-tab-size: 4;
+	tab-size: 4;
+}
+
+.viewer ol,
+.viewer ul {
+	padding-left: 1.5rem;
 }

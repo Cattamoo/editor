@@ -24,4 +24,6 @@
 	overflow-x: auto;
 	text-overflow: clip;
 	white-space: nowrap;
+	-moz-tab-size: 4;
+	tab-size: 4;
 }
