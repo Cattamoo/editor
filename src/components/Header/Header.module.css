@@ -20,9 +20,9 @@
 	cursor: pointer;
 	outline: 0;
 	background-color: #00000022;
-	border: 1px solid #00000088;
-	border-radius: 1rem;
-	padding: .25rem .5rem;
+	border: 1px solid #00000055;
+	border-radius: .5rem;
+	padding: .5rem;
 	margin-left: .5rem;
 	transition-duration: .25s;
 }
