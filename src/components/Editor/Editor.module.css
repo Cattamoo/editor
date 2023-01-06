@@ -1,7 +1,10 @@
 .container {
+	position: relative;
 	flex: 1;
 	display: flex;
 	min-height: 100%;
+	height: 0;
+	overflow: auto;
 }
 
 .numbers {
@@ -15,15 +18,19 @@
 }
 
 .text {
+	position: sticky;
+	top: 0;
 	flex: 1;
 	line-height: 1.2rem;
 	resize: none;
 	border: 0;
 	outline: 0;
-	overflow-y: hidden;
-	overflow-x: auto;
-	text-overflow: clip;
 	white-space: nowrap;
 	-moz-tab-size: 4;
 	tab-size: 4;
+}
+
+.text::-webkit-scrollbar {
+	width: 0;
+	height: 0;
 }
