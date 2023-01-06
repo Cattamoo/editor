@@ -15,6 +15,9 @@ export default function Editor({ text, setText }) {
 			e.target.focus()
 		}
 	}
+	const handleTextChange = (e) => {
+		setText(e.target.value);
+	}
 	useEffect(() => {
 		const container = containerRef.current;
 		const handleScroll = ({ target }) => {
@@ -33,9 +36,6 @@ export default function Editor({ text, setText }) {
 
 		return () => container.removeEventListener('scroll', handleScroll)
 	}, [])
-	const handleTextChange = (e) => {
-		setText(e.target.value);
-	}
 	return (
 		<div ref={containerRef} className={styles.container}>
 			<div className={styles.numbers}>
