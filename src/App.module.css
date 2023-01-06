@@ -5,5 +5,5 @@
 	color: #111;
 	display: flex;
 	flex: 1;
-	margin-top: calc(headerHeight + (headerPadding * 2));
+	margin-top: calc(headerHeight + (headerPadding * 3.5));
 }
