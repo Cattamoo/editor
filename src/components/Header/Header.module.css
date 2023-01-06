@@ -7,6 +7,7 @@
 	padding: headerPadding;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	background-color: white;
 	user-select: none;
 }
@@ -28,4 +29,16 @@
 
 .btn:hover {
 	background-color: #00000055;
+}
+
+.header input[type="text"] {
+	outline: 0;
+	border: 2px dashed #00000022;
+	padding: .5rem;
+	border-radius: .5rem;
+	transition-duration: .25s;
+}
+
+.header input[type="text"]:focus {
+	border-color: #00000055;
 }
