@@ -32,7 +32,7 @@ export default function Header({ text, setText }) {
 			<span className={styles.logo}>Markdown Editor📝</span>
 			<div>
 				<input type="text" value={`${fileName}`} onChange={({ target }) => setFileName(target.value)} />
-				<input ref={fileRef} type="hidden" onChange={handleUpload} accept=".md" />
+				<input className="hidden" ref={fileRef} type="file" onChange={handleUpload} accept=".md" />
 				<button className={styles.btn} onClick={handleUploadClick}>Upload</button>
 				<button className={styles.btn} onClick={handleSave}>Save</button>
 			</div>
