@@ -2,7 +2,7 @@
 
 ## 목표 🏆
 
-- ReactMarkdown을 활용하여 간단한 Markdown Viewer 구현
+- ReactMarkdown을 활용하여 간단한 Markdown Editor 및 Viewer 구현
 
 ## 사용 기술 🎛️
 
