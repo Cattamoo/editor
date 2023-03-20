@@ -1,5 +1,7 @@
 # Markdown Editor 📝
 
+<img width="955" alt="image" src="https://user-images.githubusercontent.com/87294942/226334946-b12df126-06dc-4a6b-a210-1335927c0697.png">
+
 ## 목표 🏆
 
 - ReactMarkdown을 활용하여 간단한 Markdown Editor 및 Viewer 구현
